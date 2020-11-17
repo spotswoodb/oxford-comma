@@ -1,11 +1,6 @@
 array = ["fiddleheads","okra","kohlrabi"]
 
-# def oxford_comma(array)
-#     array.join(",")
-# end
-
 def oxford_comma(array)
-    array = [*array]
     case array.size
     when 0
       ""
